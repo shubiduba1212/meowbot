@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const breedMedia = {
     koshot: [
       { type: 'image', src: 'assets/images/meowbot_koshot2.png', thumbnail: 'assets/images/meowbot_koshot2.png' },
-      { type: 'video', src: 'assets/video/koshot2_detail.mp4', thumbnail: 'assets/images/meowbot_koshot2_pollo.png' }
+      { type: 'video', src: 'assets/videos/koshot2_detail.mp4', thumbnail: 'assets/images/meowbot_koshot2_pollo.png' }
     ],
     tuxido: [
       { type: 'image', src: 'assets/images/meowbot_koshot.png', thumbnail: 'assets/images/meowbot_koshot.png' },
