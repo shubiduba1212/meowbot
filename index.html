@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MeowBot</title>
+  <meta name="description" content="MeowBot - 귀여운 AI 고양이 로봇, 집사들의 새로운 친구! 분양, 기능, AI, 고양이, 로봇, 스마트펫, MeowBot 공식 홈페이지.">
+  <meta name="keywords" content="MeowBot, 미야우봇, 고양이 로봇, AI 고양이, 스마트펫, 고양이, 로봇, 집사, 반려동물, 분양, 인공지능, cat robot, ai pet, cat, robot, smart pet, adoption">
+  <meta name="author" content="MeowBot Team">
+  <meta property="og:title" content="MeowBot - 귀여운 AI 고양이 로봇" />
+  <meta property="og:description" content="MeowBot는 AI와 귀여움을 모두 갖춘 차세대 고양이 로봇입니다. 집사들의 새로운 친구를 만나보세요!" />
+  <meta property="og:image" content="https://meowbot.example.com/assets/images/meowbot_koshot.png" />
+  <meta property="og:url" content="https://meowbot.example.com/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="MeowBot - 귀여운 AI 고양이 로봇" />
+  <meta name="twitter:description" content="MeowBot는 AI와 귀여움을 모두 갖춘 차세대 고양이 로봇입니다. 집사들의 새로운 친구를 만나보세요!" />
+  <meta name="twitter:image" content="https://meowbot.example.com/assets/images/meowbot_koshot.png" />
+  <!-- Favicon for all platforms -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon.png">
+  <link rel="shortcut icon" href="/assets/images/favicon.png">
+  <meta name="msapplication-TileImage" content="/assets/images/favicon.png">
+  <meta name="msapplication-TileColor" content="#FFD460">
+  <meta name="theme-color" content="#FFD460">
+  <link rel="stylesheet" href="assets/css/default.css">
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Lexend&family=Outfit&family=Poppins&family=Quicksand&family=Noto+Sans+KR&display=swap" rel="stylesheet">  
+</head>
+
+<body>
+  <div id="loader-container"></div>
+
+  <div id="content" class="wrapper hidden">
+    <header class="header">
+      <div class="header_inner">
+        <div class="header_left">
+          <a class="logo" href="./index.html">
+            <img id="logo_img" src="assets/images/logo_dark.png" alt="MeowBot 로고">
+          </a>
+          <div class="nav_btn">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="./index.html" class="nav_menu">HOME</a></li>
+            <li><a href="./product.html" class="nav_menu">PRODUCT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <button id="top_button" aria-label="Scroll to Top">TOP</button>
+      <section class="section home" id="home">        
+        <div class="home_inner_box">
+          <div class="home_txt_box">
+            <h1>MeowBot🐾</h1>            
+            <p>Your Daily Dose of Joy</p>
+            <p>The AI Pet that Completes Your Home</p>
+          </div>
+          <video src="assets/videos/koshot2_detail.mp4" autoplay loop muted playsinline preload="auto"></video>         
+        </div>
+        <div class="wave_container">
+          <div class="wave wave1"></div>
+          <div class="wave wave2"></div>
+          <div class="wave wave3"></div>
+        </div>
+      </section>
+
+      <section class="section need" id="need">
+        <h2>No Cat, Just Me?</h2>        
+        <div class="need_inner_box">
+          <img src="assets/images/need1.png" alt="고양이 영상보는 여성 3D 일러스트" class="need_img">
+          <div class="need_txt_box ko">
+            <p>언제까지 <span id="typed-text"></span> ? </p>
+            <p>"랜선만으로는 너무 아쉬워."</p>
+            <p>"키우고 싶지만 가능할까?"</p>
+            <p>랜선 집사들의 외로움은 이제 그만!</p>
+            <p>고양이 키우고 싶지만 망설여지시나요?</p>
+          </div>
+          <img src="assets/images/need2.png" alt="고양이 생각을 하는 남성 3D 일러스트" class="need_img">
+        </div>
+      </section>      
+
+      <section class="section introduce">
+          <div class="image_wrapper" id="imageWrapper">
+            <div class="image_inner" id="imageInner">
+              <img id="mainImage"
+                src="assets/images/meowbot_scottish.png"
+                alt="고양이 AI 로봇 MeowBot" />
+            </div>
+          </div>
+        
+          <div class="overlay_text" id="overlayText">The Answer? MeowBot</div>
+        
+          <div class="introduce_box" id="introduceMask">
+            <div class="wave_container introduce_wave">
+              <div class="wave wave1"></div>
+              <div class="wave wave2"></div>
+              <div class="wave wave3"></div>
+            </div>
+            <div class="connect-content">
+              <h2>Find Your Purr-fect MeowBot</h2>
+              <div class="marquee-container">
+                <div class="marquee-row" id="marquee-top">
+                  <img src="/assets/images/meowbot_british.png" alt="브리티쉬 숏헤어 고양이 로봇">
+                  <img src="/assets/images/meowbot_exotic.png" alt="엑죠틱 고양이 로봇">
+                  <img src="/assets/images/meowbot_koshot2.png" alt="코숏 숏헤어 고양이 로봇">
+                  <img src="/assets/images/meowbot_cheese.png" alt="치즈태비 고양이 로봇">
+                  <img src="/assets/images/meowbot_russian.png" alt="러시안블루 고양이 로봇">
+                  <img src="/assets/images/meowbot_siamese.png" alt="샴 고양이 로봇">
+                  <img src="/assets/images/meowbot_scottish.png" alt="스코티쉬 폴드 고양이 로봇">
+                  <img src="/assets/images/meowbot_koshot.png" alt="코숏 고양이 로봇">
+                  <img src="/assets/images/meowbot_cheese.png" alt="치즈태비 고양이 로봇">
+                  <img src="/assets/images/meowbot_exotic.png" alt="엑죠틱 고양이 로봇">
+                </div>
+                <div class="marquee-row reverse" id="marquee-bottom">
+                  <img src="/assets/images/meowbot_russian.png" alt="러시안블루 고양이 로봇">
+                  <img src="/assets/images/meowbot_siamese.png" alt="샴 고양이 로봇">
+                  <img src="/assets/images/meowbot_scottish.png" alt="스코티쉬 폴드 고양이 로봇">
+                  <img src="/assets/images/meowbot_koshot.png" alt="코숏 고양이 로봇">
+                  <img src="/assets/images/meowbot_cheese.png" alt="치즈태비 고양이 로봇">
+                  <img src="/assets/images/meowbot_exotic.png" alt="엑죠틱 고양이 로봇">
+                  <img src="/assets/images/meowbot_british.png" alt="브리티쉬 숏헤어 고양이 로봇">
+                  <img src="/assets/images/meowbot_exotic.png" alt="엑죠틱 고양이 로봇">
+                  <img src="/assets/images/meowbot_koshot2.png" alt="코숏 숏헤어 고양이 로봇">
+                  <img src="/assets/images/meowbot_cheese.png" alt="치즈태비 고양이 로봇">                  
+                </div>
+              </div>
+              <p>고민은 이제 그만!<br>다양한 개성의 MeowBot들을 만나보세요.<br> 당신의 마음을 사로잡을 친구가 여기 있어요!</p>
+            </div>
+          </div>
+      </section>
+      
+      <section class="section features" id="features">
+        <h2>What Makes MeowBot Special</h2>
+        <h3>단순한 로봇을 넘어선 감성 교감.</h3>
+        <div class="feature-list">
+          <div class="feature">🤖 AI 대화 기능 - 감정을 인식하고 상황에 맞는 반응을 해요</div>
+          <div class="feature">🎨 다양한 스타일 - 고양이 품종을 귀엽게 구현했어요</div>
+          <div class="feature">📸 사진 인식 - 가족 얼굴을 기억하고 반가워해요</div>
+          <div class="feature">🔋 하루종일 사용 가능한 배터리 - 저녁까지 함께해요</div>
+        </div>
+      </section>
+
+      <section class="section view" id="view">
+        <div class="view_inner">
+          <div class="view_right">
+            <h2>지금, MeowBot을 만나보세요!</h2>
+            <p>지금 바로 MeowBot의 특별한 매력을 경험하고,<br>당신의 삶을 더욱 풍요롭게 만들어보세요.</p>
+            <a href="./product.html">제품 보러가기</a>
+          </div>
+          <div class="view_left">
+            <video src="./assets/videos/exotic_detail.mp4" autoplay loop muted playsinline preload="auto"></video>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer_inner">
+        <div class="footer_left">
+          <a href="#"><img src="assets/images/logo_light.png" alt="MeowBot 로고" class="footer_logo"></a>
+        </div>
+        <div class="footer_center">
+          <a href="https://github.com/yourusername" target="_blank" class="footer_link">HELP / GitHub</a>
+        </div>
+        <div class="footer_right">
+          <span class="copyright">© 2025 MeowBot. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script type="module" src="assets/js/loader.js"></script>
+</body>
+
+</html>
