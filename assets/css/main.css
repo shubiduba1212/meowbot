@@ -140,5 +140,7 @@
   .view_inner h2 { padding-top: 40px; }
   .view p { font-size: 1rem; font-weight: 600; margin: 2rem 0; }
   .view a { width: 300px; background: var(--accent); font-size: 1rem; font-weight: 700; transition: background 0.2s ease-in-out; &:hover { background: var(--primary); } }  
+
+  #top_button { bottom: 100px;}
 }
 
